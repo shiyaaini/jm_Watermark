@@ -72,17 +72,14 @@
 
 首先需要在浏览器中安装 Tampermonkey 扩展：
 
-- **Chrome / Edge**: [Tampermonkey on Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- **Chrome**: [Tampermonkey on Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- **Edge**:https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?hl=zh-CN
 - **Firefox**: [Tampermonkey on Firefox Add-ons](https://addons.mozilla.org/firefox/addon/tampermonkey/)
 - **Safari**: [Tampermonkey on App Store](https://apps.apple.com/app/tampermonkey/id1482490089)
 
 ### 2️⃣ 安装脚本
 
-#### 方式一：从 Greasy Fork 安装（推荐）
-
-> 🔗 [点击这里安装脚本](https://greasyfork.org/scripts/你的脚本ID)
-
-#### 方式二：手动安装
+#### 方式：手动安装
 
 1. 点击 Tampermonkey 图标 → "创建新脚本"
 2. 复制 `index_gallery.js` 的全部内容
@@ -379,17 +376,6 @@ if (img.naturalWidth <= 100 || img.naturalHeight <= 100) {
 5. 开启 Pull Request
 
 ---
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
-
----
-
-## 📮 联系方式
-
-- **Issues**: [GitHub Issues](https://github.com/你的用户名/仓库名/issues)
-- **邮箱**: your.email@example.com
 
 ---
 
